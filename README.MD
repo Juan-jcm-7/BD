@@ -1,14 +1,19 @@
 ```mermaid
 graph LR;
-  ordersDB[(BDSkyRouteSRL)]
+  ordersDB[(Reserva)]
   BDSkyRouteSRL-->RazonSocial;
   BDSkyRouteSRL-->Ciudad
   BDSkyRouteSRL-->Realizadas
-  RazonSocial-->CUIT;
-  CUIT-->CorreodeContacto;
-  CorreodeContacto-->Clientes;
+  NombreyApellido-->DatosdeContacto;
+  DatosdeContacto-->Clientes;
+  Clientes-->Reserva;
   Ciudad-->Pais;
   Pais-->CostoBasedelViaje;
   CostoBasedelViaje-->Destinos;
-  Realizadas-->Ventas;
+  Destinos-->Reserva;
+  Cantidad de Pasajeros-->Ventas;
+  Ventas-->Reserva;
+  Dia-->Mes;
+  Mes-->Fecha;
+  Fecha-->Reserva;
 ```
