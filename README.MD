@@ -11,7 +11,7 @@ graph LR;
   Pais-->CostoBasedelViaje;
   CostoBasedelViaje-->Destinos;
   Destinos-->Reserva;
-  Cantidad de Pasajeros-->Ventas;
+  NumerodeReservas-->Ventas;
   Ventas-->Reserva;
   Dia-->Mes;
   Mes-->Fecha;
