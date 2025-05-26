@@ -16,6 +16,5 @@ graph LR;
   BDSkyRouteSRL-->Año
   Año-->Dia
   Dia-->Mes;
-  Mes-->Fecha;
-  Fecha-->ordersDB;
+  Mes-->ordersDB;
 ```
