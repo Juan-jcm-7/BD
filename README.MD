@@ -4,6 +4,7 @@ graph LR;
   BDSkyRouteSRL-->RazonSocial;
   BDSkyRouteSRL-->Ciudad
   BDSkyRouteSRL-->Realizadas
+  RazonSocial-->NombreyApellido
   NombreyApellido-->DatosdeContacto;
   DatosdeContacto-->Clientes;
   Clientes-->ordersDB;
