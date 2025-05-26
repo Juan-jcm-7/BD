@@ -8,8 +8,8 @@ RazonSocial-->NombreyApellido
   Clientes-->ordersDB;
 ##
   BDSkyRouteSRL-->Ciudad
-  Ciudad-->Pais;
-  Pais-->CostoBasedelViaje;
+  Pais-->Ciudad;
+  Ciudad-->CostoBasedelViaje;
   CostoBasedelViaje-->Destinos;
   Destinos-->ordersDB;
 ##
