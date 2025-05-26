@@ -7,7 +7,7 @@ RazonSocial-->NombreyApellido
   DatosdeContacto-->Clientes;
   Clientes-->ordersDB;
 ##
-  BDSkyRouteSRL-->Ciudad
+  BDSkyRouteSRL-->Pais
   Pais-->Ciudad;
   Ciudad-->CostoBasedelViaje;
   CostoBasedelViaje-->Destinos;
