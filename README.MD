@@ -1,6 +1,6 @@
 ```mermaid
 graph LR;
-  ordersDB[(ORDERSDB)]
+  ordersDB[(BD SkyRoute SRL)]
   A-->|Even Sourcing|B;
   A-->C;
   B-->D;
