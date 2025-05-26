@@ -2,16 +2,19 @@
 graph LR;
   ordersDB[(Reserva)]
   BDSkyRouteSRL-->RazonSocial;
-  BDSkyRouteSRL-->Ciudad
-  BDSkyRouteSRL-->Realizadas
-  RazonSocial-->NombreyApellido
+RazonSocial-->NombreyApellido
   NombreyApellido-->DatosdeContacto;
   DatosdeContacto-->Clientes;
   Clientes-->ordersDB;
+##
+  BDSkyRouteSRL-->Ciudad
   Ciudad-->Pais;
   Pais-->CostoBasedelViaje;
   CostoBasedelViaje-->Destinos;
   Destinos-->ordersDB;
+##
+  BDSkyRouteSRL-->Realizadas
+  Realizadas-->NumerodeReservas
   NumerodeReservas-->Ventas;
   Ventas-->ordersDB;
   BDSkyRouteSRL-->Año;
