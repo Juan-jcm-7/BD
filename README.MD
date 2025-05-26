@@ -17,8 +17,8 @@ RazonSocial-->NombreyApellido
   Realizadas-->NumerodeReservas
   NumerodeReservas-->Ventas;
   Ventas-->ordersDB;
-  BDSkyRouteSRL-->Año;
-  Año-->Dia;
+  BDSkyRouteSRL-->Fecha;
+  Fecha-->Dia;
   Dia-->Mes;
   Mes-->ordersDB;
 ```
