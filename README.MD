@@ -13,6 +13,8 @@ graph LR;
   Destinos-->ordersDB;
   NumerodeReservas-->Ventas;
   Ventas-->ordersDB;
+  BDSkyRouteSRL-->Año
+  Año-->Dia
   Dia-->Mes;
   Mes-->Fecha;
   Fecha-->ordersDB;
