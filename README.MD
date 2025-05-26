@@ -1,6 +1,6 @@
 ```mermaid
   graph LR;
-      ordersDb [OrdersDB]
+      ordersDb [(ordersDB)]
       A-->B;
       A-->C;
       B-->D;
