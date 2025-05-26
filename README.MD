@@ -6,14 +6,14 @@ graph LR;
   BDSkyRouteSRL-->Realizadas
   NombreyApellido-->DatosdeContacto;
   DatosdeContacto-->Clientes;
-  Clientes-->Reserva;
+  Clientes-->ordersDB;
   Ciudad-->Pais;
   Pais-->CostoBasedelViaje;
   CostoBasedelViaje-->Destinos;
-  Destinos-->Reserva;
+  Destinos-->ordersDB;
   NumerodeReservas-->Ventas;
-  Ventas-->Reserva;
+  Ventas-->ordersDB;
   Dia-->Mes;
   Mes-->Fecha;
-  Fecha-->Reserva;
+  Fecha-->ordersDB;
 ```
